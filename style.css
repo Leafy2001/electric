@@ -14,13 +14,19 @@ body{
 nav{
 	height: auto;
 }
+.nav-item{
+	text-align: center;
+}
 #jumbotron{
-	height: 50vh;
+	background-image: url('images/jumbo.jpg');
+	height:70vh;
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	/*border: 1px solid black;*/
-	margin-top: 13.7vh;
+	/*margin-top: 13.7vh;*/
 }
 
 #jumbotron h1{
@@ -37,6 +43,7 @@ nav{
 	font-weight: 400;
 	font-size: 1.5rem;
 	color:red;
+	margin-top: 5vh;
 }
 #cable-des p{
 	font-size: 0.7rem;
@@ -110,4 +117,12 @@ nav{
 	align-items: center;
 	padding-left: 5vw;
 	margin-top: 5vh;
+}
+
+
+
+@media (max-width: 500px){
+	#jumbotron{
+		height:45vh;
+	}
 }
