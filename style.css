@@ -4,15 +4,11 @@
 	box-sizing: border-box;
 }
 
-body{
-	/*color:white;*/
-}
-
 #logo{
 	color:red;
 }
 nav{
-	
+	height:auto;
 }
 #jumbotron{
 	height: 50vh;
