@@ -97,3 +97,13 @@ nav{
 	margin-left: 10px;
 }
 
+#footer{
+	font-size: 0.8rem;
+	background-color: black;
+	height:10vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 5vw;
+	margin-top: 5vh;
+}
