@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+	height: auto;
+}
+.navbar-nav{	
+	margin-left: 8vw;
+}
+.nav-item{
+	text-align: center;
+}
+
+
+.social{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.social p{
+	display: inline;
+}
+
+.social a{
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#footer{
+	font-size: 0.8rem;
+	background-color: black;
+	height:10vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 5vw;
+	margin-top: 5vh;
+}
+@media (max-width: 500px){
+	#jumbotron{
+		height:45vh;
+	}
+}
