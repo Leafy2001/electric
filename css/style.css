@@ -9,7 +9,9 @@
 }
 
 #jumbotron h1{
-	font-weight: 300px;
+	font-family: Helvetica, serif;
+	background-color: white;
+	border-radius: 30px;
 }
 
 #main{
