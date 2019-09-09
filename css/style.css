@@ -1,0 +1,65 @@
+#main{
+	margin-top: 6vh;
+	height:auto;
+
+	/*border:1px solid black;*/
+}
+#main-heading h1{
+	font-weight: 400;
+	font-size: 1.5rem;
+	color:red;
+	margin-top: 5vh;
+}
+#cable-des p{
+	font-size: 0.7rem;
+}
+#categories{
+	flex-wrap: wrap;
+}
+.cat{
+	width:270px;
+	/*border:1px solid white;*/
+	height: auto;
+	margin-bottom: 8vh;
+	text-align: center;
+	background-color: white;
+	color:black;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+.cat-img{
+	width: 100%;
+	text-align: center;
+	padding-top: 3vh;
+}
+.cat .cat-img img{
+	width: 70%;
+}
+.cat-heading h2{
+	font-weight: 500;
+	font-size: 0.7rem;
+	padding-top: 2vh;
+	color: black;
+}
+.cat-heading h2 a{
+	color: red;
+	text-decoration: none;
+} 
+.cat-des p{
+	font-size: 0.7rem;
+}
+.cat-exp a{
+	color: black;
+	border:1px solid black;
+	border-radius: 5px;
+	padding: 7px;
+}
+.cat-exp a:hover{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+

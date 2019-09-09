@@ -1,0 +1,54 @@
+#sell{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5vh;	
+}
+#exzoom{	
+	width: 342px;
+	background-color: white;
+}
+
+.exzoom .exzoom_img_ul_outer {
+    border: 1px solid #fff;
+}    
+
+.exzoom .exzoom_img_box {
+    background: #fff;
+}
+
+#describe{
+	margin-top: 1vh;
+	width:652px;
+}
+#describe h1{
+	text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #ee1c25;
+    font-weight: 450;
+    vertical-align: middle;
+}
+#describe h4{
+	font-weight: 400;
+    color: #414040;
+    font-size: 0.9rem;
+}
+h4.sub4{
+	font-size: 0.6rem;
+    color: #5d3637;
+    margin-top: 4vh;
+    text-decoration: underline;
+}
+#describe p{
+	font-size: 0.7rem;
+}
+#describe h3{
+	display: inline-block;
+	color: red;
+	font-size: 1.3rem;
+}
+#describe span{
+	color: red;
+	font-size: 0.7rem;
+}
