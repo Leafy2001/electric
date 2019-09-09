@@ -27,8 +27,11 @@ div#slider{
  overflow: hidden; 
 }
 div#slider figure img {
- width: 20%; float: left; 
+ width: 20%; 
+ float: left; 
+ height: 50vh;
 }
+
 div#slider figure { 
   position: relative;
   width: 500%;
@@ -38,6 +41,7 @@ div#slider figure {
   font-size: 0;
   animation: 10s slidy infinite; 
 }
+
 #cable-des p{
 	font-size: 0.7rem;
 }
@@ -88,6 +92,14 @@ div#slider figure {
 	text-decoration: none;
 }
 
+
+@media(max-width: 500px){
+	div#slider figure img {
+		 width: 20%; 
+		 float: left; 
+		 height: 35vh;
+	}
+}
 
 
 
